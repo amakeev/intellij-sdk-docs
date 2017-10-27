@@ -31,6 +31,12 @@ NOTE: You are allowed to prettify the pattern using markdown-features:
   }
 </style>
 
+## Changes in IntelliJ Platform 2018.1
+
+|  Change | How to deal with it |
+|---------|---------------------|
+| `com.intellij.execution.DefaultExecutionTarget#<ctor>` made private | use `com.intellij.execution.DefaultExecutionTarget#INSTANCE` instead |
+
 ## Changes in IntelliJ Platform 2017.3
 
 |  Change | How to deal with it |
